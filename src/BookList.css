@@ -1,0 +1,60 @@
+.list{
+    list-style-type:none;
+    align-items: center;
+    text-align: center;
+    margin-left: 20%;
+    font-size: 22px;
+}
+
+.list li{
+    display: flex;
+    gap:20px;
+    margin: 10px;
+}
+#cover{
+    width: 150px;
+    height: 100px;
+}
+#bookCover{
+    text-align: center;
+}
+
+#content{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+#edit{
+    border: none;
+    background-color: rgb(224, 171, 102);
+    color: red;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    height: 30px;
+}
+
+#upload{
+    border: none;
+    background-color: rgb(224, 171, 102);
+    color: red;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    height: 30px;
+}
+#editInput{
+    height: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#save, #cancel{
+    border-radius: 10px;
+    background-color: rgb(255, 56, 1);
+    color: rgb(255, 204, 196);
+    font-size: 18px;
+    font-weight: bold;
+}

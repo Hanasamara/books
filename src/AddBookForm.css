@@ -1,0 +1,24 @@
+#form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#inputtext{
+    width: 30%;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#addbutton{
+    width: 12%;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Arial narrow';
+    font-size: 18px;
+    background-color: rgb(224, 171, 102);
+}
+
